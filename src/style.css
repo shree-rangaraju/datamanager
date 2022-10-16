@@ -1,0 +1,248 @@
+/* CSS RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+
+
+
+h1 {
+    font-size: 25px;
+    align-self: flex-start;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.tableContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+
+table {
+    width: 80%;
+}
+
+
+th {
+    padding: 10px 0px;
+    background-color: #5B9BD5;
+    font-size: 20px;
+}
+
+
+tr {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+
+td {
+    height: 100px;
+    width: 100px;
+}
+
+
+th,
+td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+}
+
+.shiftData>*,
+.addNewPart>* {
+    width: 80%;
+    margin-top: 5px;
+}
+
+
+.Add {
+    padding: 0;
+    background: #00B0F0;
+    border: 1px solid black;
+    font-size: 14px;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+}
+
+.Add:hover {
+    background: rgba(0, 176, 240, 0.5);
+}
+
+.shiftData {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+
+.submitProductionEntry {
+    align-self: flex-end;
+    background: #5B9BD5;
+    border: none;
+    font-size: 15px;
+    width: 80px;
+    margin-top: 10px;
+    margin-right: 120px;
+    height: 30px;
+    border-radius: 6px;
+    transition: 250ms;
+}
+
+.submitProductionEntry:hover {
+    background-color: lightgrey;
+}
+
+.addNewPart {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addNewPart>select {
+    width: 75%;
+}
